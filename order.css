@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#main{
+	width: 100%;
+	height: 117vh;
+  background-color: #ffffff;
+  padding: 20px;
+  color: #000000;
+  font-weight: 100;  
+}
+#input{
+  width: 50%;
+  background: #c78902;
+  padding: 20px;
+  margin:0 auto;
+  height: 105vh;
+  box-shadow: 2px 20px 50px #000;
+}
+table tr td{
+  padding: 10px;
+  width: 75%;
+  height: 25px;
+}
+.button {
+  background-color: #594c1e;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: url(https://foto.kontan.co.id/Ic3dRtkOs_0uHEkaRBetSVPCSIc=/smart/2021/08/22/227467857p.jpg);
+}
+.jasa {
+  background: transparent;
+  width: 30%;
+  right: 15%;
+  bottom: 25%;
+  align-items: center;
+  color: black;
+}
+h2 {
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: times new roman;
+}
+.content {
+  padding: 5px;
+}
+table {
+  margin: auto;
+  padding-bottom: 6%;
+}
+table td {
+  padding: 6px;
+  font-family: times new roman;
+  font-size: 15px;
+  color: black;
+}
+button {
+  font-weight: bold;
+  font-size: 10px;
+  width: 60px;
+  font-family: sans-serif;
+  height: 30px;
+  background-color: goldenrod;
+  border-radius: 6px;
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.profil{
+  padding: 10px;
+  background-size: cover;
+}
+table tr td{
+  padding: 20px;
+}
+h2{
+  color: white;
+}
+#head{
+  background: #0206d6;
+}
+.profil img{
+  border-radius: 10%;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+}

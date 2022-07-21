@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.galeri{
+    padding: 20px;
+}
+table tr td{
+    padding: 20px;
+}
+h2{
+    color: white;
+}
+#head{
+    background: #0206d6;
+}
+@import url(https://fonts.bunny.net/css?family=amita:700);
+
+body {
+    background: #ffffff;
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #850413;
+    font-family: Amita;
+    margin: 20px auto;
+    width: 450px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 10px double #850413;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    margin: 6px;
+    border: 10px solid #c78902;
+    -webkit-filter: blue(100%);
+    filter: blue(100%);
+    transition-duration: 1s;
+}
+
+img:hover {
+    border: 5px solid #fff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

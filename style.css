@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#main{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("https://fakta.co.id/wp-content/uploads/2020/04/Jassa-Pengiriman-Barang..jpg");
+	background-size: cover;
+	background-position: center;
+}
+.button{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 7px 15px;
+  border: 3px solid #24c729;
+  position: relative;
+}
+.button::before,
+.button::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: inherit;
+  transition: all .5s;
+}
+.button::before{
+  top:  -15px;
+  left: -15px;
+  border-width: 3px 0 0 3px;
+}
+.button::after{
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 3px 3px 0;
+}
+.button:hover::before,
+.button:hover::after{
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	font-size: 36px;
+	color: #24c729;
+	font-weight: bold;
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	color: white;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #24c729;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.content{
+	text-align: center;
+	color: white;
+}
+#login{
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	position: absolute;
+	transform: translateY(80%);
+}
+.content h1{
+	font-size: 50px;
+	margin-top: 80px;
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+	color: lightyellow;
+}
+button{
+	width: 200px;
+	margin: 20px 10px;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	background: transparent;
+	border: 3px solid orange;
+	position: relative;
+	cursor: pointer;
+	border-radius: 10px;
+	overflow: hidden;
+}
+span{
+	height: 100%;
+	width: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	position: absolute;
+	border-radius: 10px;
+	background: orange;
+	transition: 0.3s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border: none;
+}
+#content2{
+  background-color: white;
+  width: 100%;
+  height: 900px;
+}
+.img-circle{
+ border-radius: 30%;
+-moz-border-radius: 20%;
+-webkit-border-radius: 25%;
+}
+.kiri{
+  width: 47%;
+  float: left;
+  padding: 20px;
+}
+.kiri img{
+	border-radius: 70%;
+}
+#kanan{
+	padding: 20px;
+	background: whitesmoke;
+  margin-left: 50%;
+}
+#tengah{
+  width: 97%;
+  background: #c78902;
+  padding: 20px;
+  float: left;
+}
+.order{
+  width: 100%;
+}
+.footer{
+  height: 150px;
+  background-color: #594c1e;
+  padding: 20px;
+  color: white;
+}
+#footer1{ 
+	float: left;
+	width: 80%;
+}
+a{
+  color: black;
+}
+img{
+  text-align: center;
+}
+table{
+  text-align: center;
+  width: 100%;
+  background: #b7c2a3;
+  border-color: green;
+}
+table tr td img{
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+}
+.satu{
+	border: 10px inset #c78902; 
+}
+#kanan img{
+	border-radius: 50%;
+-moz-border-radius: 40%;
+-webkit-border-radius: 25%;
+}
+
